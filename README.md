@@ -13,14 +13,14 @@ The goal of these Go pioneers was to make a language that made it easy to build 
 
 Now let’s look at a few examples of Go’s language to give you a feel for how it operates. How about we begin at the starting place for every language and Go from there: Hello World!
 
-Hello, Go!
+```Hello, Go!
 package main
 
 import "fmt"
 
 func main() {
 	fmt.Println("Hello, 世界!")
-}
+}```
 
 As we can see, we have a main package as all Go code belongs to a package along with the ‘fmt’ import statement which is the String formatting package. Finally in the main function, we just call “Hello Go” from the Println method. 
 
