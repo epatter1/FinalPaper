@@ -210,7 +210,7 @@ func main() {
 Now that we’ve covered a number of the core features offered by Go (at least up to this point- there are many more!), let us take a look at some of the pros and cons of utilizing the language. Please note: a lot of the factors that weigh into determining if Go is the right fit for you depend largely upon your specific needs. For example, are you considering going with Go for personal use? A new startup? Or perhaps a more heavy-duty corporate production environment? So be sure to take these questions into account when considering using Go or offering advice to others who are doing the same.
 
 ###The Pros###
-* Go (adequately named) is lightning fast! It is fast both in terms of the programs written in by comparison to those written in other languages as well as by means of the compiler. 
+* Go (adequately named) is lightning fast! It is fast both in terms of the programs written in it by comparison to those written in other languages as well as by means of the compiler. 
 * Go can to edit and run programs directly from the web (try it out!).
 * Go is a garbage-collected language which puts less pressure on the developer to do memory management as Go has most of this “grunt work” functionality already built in (cool, huh?)
 * Built-in concurrency! This makes provision for parallelism in a simpler way than is currently possible in other languages. This is demonstrated in the goroutines and channels we looked at earlier. The goroutines start concurrent work and channels support the communication and synchronization.
