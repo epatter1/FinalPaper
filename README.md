@@ -20,7 +20,8 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello, 世界!")
-}```
+}
+```
 
 As we can see, we have a main package as all Go code belongs to a package along with the ‘fmt’ import statement which is the String formatting package. Finally in the main function, we just call “Hello Go” from the Println method. 
 
