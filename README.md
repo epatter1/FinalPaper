@@ -4,7 +4,7 @@
 
 **Brought to you by:** *Elisha Patterson*
 
-On your mark, Get set... **Go**! Hello there and welcome! Today, we’re going to be exploring some of the intricacies of a new and upcoming language designed by Google called Go. We’ll be examining the syntax along some of the key features it provides. We will follow up by diving into some of the pros and cons identified up to this point in time and leave you, the reader, with a more well-rounded perspective that will allow you to decide if the upsides outweigh the current downsides for yourself and/or your organization. So let’s get into it!
+On your mark, Get set... **Go!** Hello there and welcome! Today, we’re going to be exploring some of the intricacies of a new and upcoming language designed by Google called Go. We’ll be examining the syntax along some of the key features it provides. We will follow up by diving into some of the pros and cons identified up to this point in time and leave you, the reader, with a more well-rounded perspective that will allow you to decide if the upsides outweigh the current downsides for yourself and/or your organization. So let’s get into it!
 
 The Go programming language was designed collectively by three gentleman working at Google (and still do to this day): *Robert Griesemer*, *Rob Pike*, and *Ken Thompson*. Go’s mascot is the gopher designed by Rob Pike’s wife, Mrs. Renee French. The language was officially announced in November of 2009 and has caught a lot of fire ever since being utilized in companies such as *DropBox*, *Google (obviously)*, *SoundCloud*, *CloudFare*, *Docker*, and *Cloud Foundry*. Even the UK government’s primary website was built with Go (https://www.gov.uk/). 
 
