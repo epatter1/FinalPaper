@@ -2,16 +2,16 @@
 ![alt text](https://fahmirahman.files.wordpress.com/2011/03/go2.png "Let's Go!")
 
 
-Brought to you by: Elisha Patterson
+**Brought to you by:** *Elisha Patterson*
 
 On your mark, Get set... Go! Hello there and welcome! Today, we’re going to be exploring some of the intricacies of a new and upcoming language designed by Google called Go. We’ll be examining the syntax along some of the key features it provides. We will follow up by diving into some of the pros and cons identified up to this point in time and leave you, the reader, with a more well-rounded perspective that will allow you to decide if the upsides outweigh the current downsides for yourself and/or your organization. So let’s get into it!
 
-The Go programming language was designed collectively by three gentleman working at Google (and still do to this day): Robert Griesemer, Rob Pike, and Ken Thompson. Go’s mascot is the gopher designed by Rob Pike’s wife, Mrs. Renee French. The language was officially announced in November of 2009 and has caught a lot of fire ever since being utilized in companies such as DropBox, Google (obviously), SoundCloud, CloudFare, Docker, Cloud Foundry. Even the UK government’s primary website was built with Go (https://www.gov.uk/). 
+The Go programming language was designed collectively by three gentleman working at Google (and still do to this day): *Robert Griesemer*, *Rob Pike*, and *Ken Thompson*. Go’s mascot is the gopher designed by Rob Pike’s wife, Mrs. Renee French. The language was officially announced in November of 2009 and has caught a lot of fire ever since being utilized in companies such as *DropBox*, *Google (obviously)*, *SoundCloud*, *CloudFare*, *Docker*, *Cloud Foundry*. Even the UK government’s primary website was built with Go (https://www.gov.uk/). 
 
 
 The goal of these Go pioneers was to make a language that made it easy to build simple, reliable, and efficient software that would eliminate many issues found in other languages while still maintaining their positive characteristics. For example, they decided that they wanted the language to be statically typed and scalable to large systems like Java and C++ do. They wanted to increase the developer’s productivity and readability of their code without an overdose of mandatory keywords and excessive repetition. Additionally, as we’ll touch on in a moment, they sought to remove the necessity of tooling while still being able to support it just as adequately. The same went for networking and multiprocessing (concurrency). Thus, they wanted to create a hybrid between statically typed and dynamic languages that was comprised of the “best of both worlds”. As you’ll notice, Go does not run on a VM, but runs in native machine code on variety of architectures. These designers went on to express their unified distaste for the immense complexity found in C++ as their key motivation to design the new language. 
 
-Now let’s look at a few examples of Go’s language to give you a feel for how it operates. How about we begin at the starting place for every language and *Go* from there: Hello World!
+Now let’s look at a few examples of Go’s language to give you a feel for how it operates. How about we begin at the starting place for every language and *Go* from there: _Hello World!_**
 
 ###Hello, Go!###
 ```
