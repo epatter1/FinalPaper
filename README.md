@@ -212,18 +212,18 @@ Now that we’ve covered a number of the core features offered by Go (at least u
 ###The Pros###
 * Go (adequately named) is lightning fast! It is fast both in terms of the programs written in by comparison to those written in other languages as well as by means of the compiler. 
 * Go can to edit and run programs directly from the web (try it out!).
-Go is a garbage-collected language which puts less pressure on the developer to do memory management as Go has most of this “grunt work” functionality already built in (cool, huh?)
-Built-in concurrency! This makes provision for parallelism in a simpler way than is currently possible in other languages. This is demonstrated in the goroutines and channels we looked at earlier. The goroutines start concurrent work and channels support the communication and synchronization.
-Has documentation already built in as a standard feature making it easier for developers like ourselves to document our code and generate data straight from pseudo code into a comprehensive, human-legible format.
-Possesses a rich standard library. Go is likely the only language to date that can claim to have a fully functional web server built in as a part of the standard library itself. 
-Built-in build system that is quite elegant and simple removing the need to deal with build configurations or makefiles. 
-Corporate backing and financial support from one of the most renowned tech giants today, Google. Nowadays, there are even more contributors from outside Google in the open source community than internally.
-The simplicity makes code maintainability less costly. In a production environment, roughly 10% of the cost goes towards writing the code and the other 90% goes into maintaining it. Go’s simplicity cuts down immensely on this maintainability expense. 
+* Go is a garbage-collected language which puts less pressure on the developer to do memory management as Go has most of this “grunt work” functionality already built in (cool, huh?)
+* Built-in concurrency! This makes provision for parallelism in a simpler way than is currently possible in other languages. This is demonstrated in the goroutines and channels we looked at earlier. The goroutines start concurrent work and channels support the communication and synchronization.
+* Has documentation already built in as a standard feature making it easier for developers like ourselves to document our code and generate data straight from pseudo code into a comprehensive, human-legible format.
+* Possesses a rich standard library. Go is likely the only language to date that can claim to have a fully functional web server built in as a part of the standard library itself. 
+* Built-in build system that is quite elegant and simple removing the need to deal with build configurations or makefiles. 
+* Corporate backing and financial support from one of the most renowned tech giants today, Google. Nowadays, there are even more contributors from outside Google in the open source community than internally.
+* The simplicity makes code maintainability less costly. In a production environment, roughly 10% of the cost goes towards writing the code and the other 90% goes into maintaining it. Go’s simplicity cuts down immensely on this maintainability expense. 
 ###The Cons###
-Go still has, albeit growing, a very young ecosystem meaning there aren’t many libraries designed for it yet which, in turn, means developers wind up having to write these libraries themselves. Also, not many books and courses are provided for it at this point.
-Go can be simple to a fault. Go’s simplicity is mostly on the surface in the sense that as it has sought to increase its simplicity, it has tossed away decades of valuable programming language progress.
-Go’s tooling is a bit light. On the surface it has some sweet tools to work with, but as you start utilizing them, a good portion of them begin to show their limitations.
-Go is still not an easy language to pick up on-the-fly and can be cumbersome at times to handle errors in it. 
+* Go still has, albeit growing, a very young ecosystem meaning there aren’t many libraries designed for it yet which, in turn, means developers wind up having to write these libraries themselves. Also, not many books and courses are provided for it at this point.
+* Go can be simple to a fault. Go’s simplicity is mostly on the surface in the sense that as it has sought to increase its simplicity, it has tossed away decades of valuable programming language progress.
+* Go’s tooling is a bit light. On the surface it has some sweet tools to work with, but as you start utilizing them, a good portion of them begin to show their limitations.
+* Go is still not an easy language to pick up on-the-fly and can be cumbersome at times to handle errors in it. 
 
 ##Where will you Go from here?##
 To recap, Go is a relatively new language (at least for the time this was written: 2016) that has not yet even crossed the mark of a decade and already we’re seeing a big surge among those in and out of Google to continue to support it. In the first 3 years since its conception in 2009, over 300 contributors joined the Go project in the open source community and that number of advocates has continued to thrive ever since.
