@@ -177,10 +177,10 @@ Func say(text string, delay time.Duration) {
      time.Sleep(delay)
      fmt. Println(text)
 }
-
-Channels
+```
+**Channels**
 Channels are a means (conduit) for synchronization and communications through which you can send and receive values with the channel operator, ‘<-’. You send a message from one end and the other routine will receive it at the other. The data flows in the direction of the arrow. 
-
+```
 package main
 
 import "fmt"
