@@ -236,7 +236,7 @@ Thank you for taking the time to read (or even skim! :)) through all that. If yo
 
 
 
-###Credits rolling (with theme music playing):###
+####Credits rolling (with theme music playing):####
 https://altabel.wordpress.com/2015/11/10/golang-pros-and-cons/
 https://speakerdeck.com/railsberry/go-a-simple-programming-environment-by-andrew-gerrand
 http://golang-examples.tumblr.com/
