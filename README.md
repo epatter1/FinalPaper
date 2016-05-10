@@ -47,7 +47,7 @@ In this example, the swap function returns two strings.
 
 
 
-Type inference
+###Type inference###
 As with dynamically typed languages such as Ruby or Python, Go offers the ability to infer the data type of your variables without you needing to declare them explicitly. Notice the := notation with the colon in front of the equals to assign values to variables.
 ```
 package main
@@ -59,7 +59,7 @@ func main() {
 	fmt.Printf("v is of type %T\n", v)
 }
 ```
-**For**
+###For###
 The for loop is Go’s one and only looping mechanism. The for loop has three components separated by semicolons:
 The init statement (executed before the first iteration)
 The condition statement (evaluated before every iteration)
@@ -84,7 +84,7 @@ func main() {
 	fmt.Println(sum)
 }
 ```
-**Defer**
+###Defer###
 Defer statements delays (“differs”) the function from executing until the surrounding function returns. The deferred call’s arguments are executed immediately, but the actual function call isn’t executed until the surrounding function returns. 
 ```
 package main
@@ -97,7 +97,7 @@ func main() {
 	fmt.Println("hello")
 }
 ```
-**Pointers**
+###Pointers###
 Go features the concept of pointers. Unlike C, Go does not have pointer arithmetic. The type *T is a pointer to a T value. Its zero value is nil. The & operator generates a pointer to its operand and the * operator represents the pointer’s underlying value. This action is known as “dereferencing” or “indirecting”.  
 
 
@@ -122,7 +122,7 @@ func main() {
 	fmt.Println(j) // see the new value of j
 }
 ```
-**Slices**
+###Slices###
 An array has a fixed size. A slice, on the other hand, is a flexible, dynamically sized view into the elements of said array. On a practical basis, slices are much more commonly used than arrays. The type []T is a slice with elements of type T. This expression below creates a slice of 3 elements of the array primes.
 ```
 package main
@@ -136,7 +136,7 @@ func main() {
 	fmt.Println(s)
 }
 ```
-**Maps**
+###Maps###
 A map will map keys to values. Simple as that. The zero value of a map is nil. A nil map has no keys and nor can any keys be added. The make function returns a map of the given type, initialized and ready to use. 
 ```
 package main
@@ -157,7 +157,7 @@ func main() {
 	fmt.Println(m["Bell Labs"]) 
 }
 ```
-**Goroutines**
+###Goroutines###
 Goroutines are lightweight threads managed by the Go runtime. Go features some pretty sweet concurrency primitives that make modeling concurrent processes very straightforward. Many goroutines run on just a few operating system threads. To run a function in a new go routine, simply put “go” before the function call like so: 
 ```
 Package main
@@ -179,7 +179,7 @@ Func say(text string, delay time.Duration) {
      fmt. Println(text)
 }
 ```
-**Channels**
+###Channels###
 Channels are a means (conduit) for synchronization and communications through which you can send and receive values with the channel operator, ‘<-’. You send a message from one end and the other routine will receive it at the other. The data flows in the direction of the arrow. 
 ```
 package main
@@ -206,10 +206,10 @@ func main() {
 }
 ```
 
-**Pros and Cons**
+##Pros and Cons##
 Now that we’ve covered a number of the core features offered by Go (at least up to this point- there are many more!), let us take a look at some of the pros and cons of utilizing the language. Please note: a lot of the factors that weigh into determining if Go is the right fit for you depend largely upon your specific needs. For example, are you considering going with Go for personal use? A new startup? Or perhaps a more heavy-duty corporate production environment? So be sure to take these questions into account when considering using Go or offering advice to others who are doing the same.
 
-**The Pros**
+###The Pros###
 Go (adequately named) is lightning fast! It is fast both in terms of the programs written in by comparison to those written in other languages as well as by means of the compiler. 
 Go can to edit and run programs directly from the web (try it out!).
 Go is a garbage-collected language which puts less pressure on the developer to do memory management as Go has most of this “grunt work” functionality already built in (cool, huh?)
@@ -219,23 +219,23 @@ Possesses a rich standard library. Go is likely the only language to date that c
 Built-in build system that is quite elegant and simple removing the need to deal with build configurations or makefiles. 
 Corporate backing and financial support from one of the most renowned tech giants today, Google. Nowadays, there are even more contributors from outside Google in the open source community than internally.
 The simplicity makes code maintainability less costly. In a production environment, roughly 10% of the cost goes towards writing the code and the other 90% goes into maintaining it. Go’s simplicity cuts down immensely on this maintainability expense. 
-The Cons
+###The Cons###
 Go still has, albeit growing, a very young ecosystem meaning there aren’t many libraries designed for it yet which, in turn, means developers wind up having to write these libraries themselves. Also, not many books and courses are provided for it at this point.
 Go can be simple to a fault. Go’s simplicity is mostly on the surface in the sense that as it has sought to increase its simplicity, it has tossed away decades of valuable programming language progress.
 Go’s tooling is a bit light. On the surface it has some sweet tools to work with, but as you start utilizing them, a good portion of them begin to show their limitations.
 Go is still not an easy language to pick up on-the-fly and can be cumbersome at times to handle errors in it. 
 
-**Where will you Go from here?**
+##Where will you Go from here?##
 To recap, Go is a relatively new language (at least for the time this was written: 2016) that has not yet even crossed the mark of a decade and already we’re seeing a big surge among those in and out of Google to continue to support it. In the first 3 years since its conception in 2009, over 300 contributors joined the Go project in the open source community and that number of advocates has continued to thrive ever since.
 
 Thank you for taking the time to read (or even skim! :)) through all that. If you’d like to learn more about Go and stay updated on the latest they have to offer, be sure to visit https://golang.org/ along with any of the handy sources listed below.
 
-**Get *Go*ing Today!**
+###Get *Go*ing Today!###
 
 
 
 
-Credits rolling (with theme music playing):
+###Credits rolling (with theme music playing):###
 https://altabel.wordpress.com/2015/11/10/golang-pros-and-cons/
 https://speakerdeck.com/railsberry/go-a-simple-programming-environment-by-andrew-gerrand
 http://golang-examples.tumblr.com/
