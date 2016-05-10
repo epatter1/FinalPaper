@@ -12,8 +12,9 @@ The Go programming language was designed collectively by three gentleman working
 The goal of these Go pioneers was to make a language that made it easy to build simple, reliable, and efficient software that would eliminate many issues found in other languages while still maintaining their positive characteristics. For example, they decided that they wanted the language to be statically typed and scalable to large systems like Java and C++ do. They wanted to increase the developer’s productivity and readability of their code without an overdose of mandatory keywords and excessive repetition. Additionally, as we’ll touch on in a moment, they sought to remove the necessity of tooling while still being able to support it just as adequately. The same went for networking and multiprocessing (concurrency). Thus, they wanted to create a hybrid between statically typed and dynamic languages that was comprised of the “best of both worlds”. As you’ll notice, Go does not run on a VM, but runs in native machine code on variety of architectures. These designers went on to express their unified distaste for the immense complexity found in C++ as their key motivation to design the new language. 
 
 Now let’s look at a few examples of Go’s language to give you a feel for how it operates. How about we begin at the starting place for every language and *Go* from there: Hello World!
+
+###Hello, Go!###
 ```
-Hello, Go!
 package main
 
 import "fmt"
@@ -25,7 +26,7 @@ func main() {
 
 As we can see, we have a main package as all Go code belongs to a package along with the ‘fmt’ import statement which is the String formatting package. Finally in the main function, we just call “Hello Go” from the Println method. 
 
-**Multiple results**
+###Multiple results###
 An interesting feature about functions in Go is that they can return more than one result.
 ```
 package main
