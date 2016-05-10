@@ -219,6 +219,7 @@ Now that we’ve covered a number of the core features offered by Go (at least u
 * Built-in build system that is quite elegant and simple removing the need to deal with build configurations or makefiles. 
 * Corporate backing and financial support from one of the most renowned tech giants today, Google. Nowadays, there are even more contributors from outside Google in the open source community than internally.
 * The simplicity makes code maintainability less costly. In a production environment, roughly 10% of the cost goes towards writing the code and the other 90% goes into maintaining it. Go’s simplicity cuts down immensely on this maintainability expense. 
+
 ###The Cons###
 * Go still has, albeit growing, a very young ecosystem meaning there aren’t many libraries designed for it yet which, in turn, means developers wind up having to write these libraries themselves. Also, not many books and courses are provided for it at this point.
 * Go can be simple to a fault. Go’s simplicity is mostly on the surface in the sense that as it has sought to increase its simplicity, it has tossed away decades of valuable programming language progress.
